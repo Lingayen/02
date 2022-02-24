@@ -8,6 +8,7 @@
     "allowEdit": false,
     "redirectPage": true,
     "page" : "watch",
+    "redirect_text":"Sending view from facebook",
     "viewData" : [
       {"lokal":"Aguilar",           "views":  0},
       {"lokal":"Alitaya",           "views":  0},
@@ -30,6 +31,7 @@
       "allowEdit": false,
       "redirectPage": true,
       "page" : "watch2",
+      "redirect_text":"Sending view from youtube",
       "viewData" : [
       {"lokal":"Aguilar",           "views":  0},
       {"lokal":"Alitaya",           "views":  0},

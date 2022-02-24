@@ -115,7 +115,8 @@ $('.post-btn').click(function() {
         customAutoResize : true,
         customResizeFactor: 2 
     }); 
-    $('.load-start').text('Sending view')
+    //  $('.load-start').text('Sending view')
+      $('.lokal_view').text(data.jsonData[lokal_page_id-1]redirect.text)
     
     setInterval(function()
     { 
