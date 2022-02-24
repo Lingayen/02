@@ -9,17 +9,19 @@
     "redirectPage": true,
     "page" : "watch",
     "redirect_text":"Sending view from facebook",
+    "different_link_per_data" : true,
+    "different_img_per_data" : true,
     "viewData" : [
-      {"lokal":"Aguilar",           "views":  0},
-      {"lokal":"Alitaya",           "views":  0},
-      {"lokal":"Angio",             "views":  0},
-      {"lokal":"Away",              "views":  0},
-      {"lokal":"Baay Ext",          "views":  0},
-      {"lokal":"Bacabac",           "views":  0},
-      {"lokal":"Balococ",           "views":  0},
-      {"lokal":"Baloling",          "views":  0},
-      {"lokal":"Banaybayan Ext",    "views":  0},
-      {"lokal":"Bateng",            "views":  0}
+      {"lokal":"Aguilar",           "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0},
+      {"lokal":"Alitaya",           "link":"https://www.google.com/", "image":"INC-Central-Temple-2.jpg",        "views":  0},
+      {"lokal":"Angio",             "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0},
+      {"lokal":"Away",              "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0},
+      {"lokal":"Baay Ext",          "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0},
+      {"lokal":"Bacabac",           "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0},
+      {"lokal":"Balococ",           "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0},
+      {"lokal":"Baloling",          "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0},
+      {"lokal":"Banaybayan Ext",    "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0},
+      {"lokal":"Bateng",            "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0}
      
       ] 
     },
@@ -32,17 +34,19 @@
       "redirectPage": true,
       "page" : "watch2",
       "redirect_text":"Sending view from youtube",
+      "different_link_per_data" : true,
+      "different_img_per_data" : true,
       "viewData" : [
-      {"lokal":"Aguilar",           "views":  0},
-      {"lokal":"Alitaya",           "views":  0},
-      {"lokal":"Angio",             "views":  0},
-      {"lokal":"Away",              "views":  0},
-      {"lokal":"Baay Ext",          "views":  0},
-      {"lokal":"Bacabac",           "views":  0},
-      {"lokal":"Balococ",           "views":  0},
-      {"lokal":"Baloling",          "views":  0},
-      {"lokal":"Banaybayan Ext",    "views":  0},
-      {"lokal":"Bateng",            "views":  0}
+        {"lokal":"Aguilar",           "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0},
+        {"lokal":"Alitaya",           "link":"https://www.google.com/", "image":"Untitled.jpg",                   "views":  0},
+        {"lokal":"Angio",             "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0},
+        {"lokal":"Away",              "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0},
+        {"lokal":"Baay Ext",          "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0},
+        {"lokal":"Bacabac",           "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0},
+        {"lokal":"Balococ",           "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0},
+        {"lokal":"Baloling",          "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0},
+        {"lokal":"Banaybayan Ext",    "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0},
+        {"lokal":"Bateng",            "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0}
         ] 
       }
       

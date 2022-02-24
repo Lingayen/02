@@ -3,6 +3,9 @@ $(document).ready(function() {
   // var urlString = location.search;
   var urlParams = parseURLParams(location.search);
 
+  var different_link = false;
+  var different_img = false;
+
   $redirect_txt = '';
 
   var lokal_name = urlParams.lokal[0]
@@ -22,17 +25,24 @@ $(document).ready(function() {
       return response.json();
     })
     .then(function(data) { 
+      
+      different_link = data.jsonData[lokal_page_id-1].different_link_per_data;
+      different_img = data.jsonData[lokal_page_id-1].different_img_per_data;
       $redirect_txt = data.jsonData[lokal_page_id-1].redirect_text;
 
       // SET LINK from json
-      link = data.jsonData[lokal_page_id-1].link;
-      $('.main-event').append('<a  id="hidden-link" class="hidden-link" href="'+link+'" target="_blank"></a>'); 
-
       
-      var image = data.jsonData[lokal_page_id-1].image;
-      $(".append-image").append(''+
-        '<img class="img-fluid mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"src="img/'+image+'" alt=""></img>'+
-      '')
+      if(!different_link){ 
+        link = data.jsonData[lokal_page_id-1].link;
+        $('.main-event').append('<a  id="hidden-link" class="hidden-link" href="'+link+'" target="_blank"></a>'); 
+      }
+
+      if(!different_img){ 
+        var image = data.jsonData[lokal_page_id-1].image;
+        $(".append-image").append(''+
+          '<img class="img-fluid mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"src="img/'+image+'" alt=""></img>'+
+        '')
+      }
 
       // minus 1 since the page starts fromm 1 and index of array starts from 0
       data.jsonData[lokal_page_id-1].viewData.forEach(setViews);  
@@ -41,6 +51,10 @@ $(document).ready(function() {
         if(lokal_name == item.lokal){ 
           $('.lokal_view').text(item.views) 
           $('.lokal_name').text(item.lokal) 
+          if(different_link)
+            $('.main-event').append('<a  id="hidden-link" class="hidden-link" href="'+item.link+'" target="_blank"></a>'); 
+          if(different_img)
+            $(".append-image").append(''+  '<img class="img-fluid mx-auto d-block shadow-lg p-3 mb-5 bg-body rounded"src="img/'+item.image+'" alt=""></img>'+ '')
         }
       }
           
