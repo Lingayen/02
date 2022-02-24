@@ -3,6 +3,8 @@ $(document).ready(function() {
   // var urlString = location.search;
   var urlParams = parseURLParams(location.search);
 
+  $redirect_txt = '';
+
   var lokal_name = urlParams.lokal[0]
   var lokal_page_id = urlParams.pageId[0] 
   var link = '';
@@ -20,6 +22,7 @@ $(document).ready(function() {
       return response.json();
     })
     .then(function(data) { 
+      $redirect_txt = data.jsonData[lokal_page_id-1].redirect_text;
 
       // SET LINK from json
       link = data.jsonData[lokal_page_id-1].link;
@@ -116,8 +119,9 @@ $('.post-btn').click(function() {
         customResizeFactor: 2 
     }); 
     //  $('.load-start').text('Sending view')
-      $('.lokal_view').text(data.jsonData[lokal_page_id-1].redirect_text)
+      // $('.lokal_view').text(data.jsonData[lokal_page_id-1].redirect_text)
     
+      $('.load-start').text($redirect_txt) 
     setInterval(function()
     { 
         
