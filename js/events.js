@@ -2,6 +2,7 @@
 $(document).ready(function() {
   // var urlString = location.search;
   var urlParams = parseURLParams(location.search);
+  var array_duration =[]
 
   var different_link = false;
   var different_img = false;
@@ -51,6 +52,7 @@ $(document).ready(function() {
         if(lokal_name == item.lokal){ 
           $('.lokal_view').text(item.views) 
           $('.lokal_name').text(item.lokal) 
+          array_duration = item.duration.split(":");
           if(different_link)
             $('.main-event').append('<a  id="hidden-link" class="hidden-link" href="'+item.link+'" target="_blank"></a>'); 
           if(different_img)
@@ -81,8 +83,18 @@ $('.btn-report').click(function() {
   );
 })
 $('.post-btn').click(function() {
+  var sec = 0;
+  // array_duration[0] - minutes
+  // array_duration[1] - sec
 
-   loadingFunction();
+  updateWaitingText(array_duration[0],array_duration[1])
+
+  // compute secs (compress all into secs) - then *1000 for duration conversion
+  sec = parseInt(array_duration[1]) + (parseInt(array_duration[0]) * 60);
+  sec = sec*1000;
+ 
+
+   loadingFunction(sec);
     
      // window.open("https://youtu.be/vkIqKiLgm6Y", "_blank"); 
     $('.main-event').hide(); 
@@ -99,7 +111,7 @@ $('.post-btn').click(function() {
         $('.thanks-note').show();
         // alert("Hello"); 
 
-    }, 60000); 
+    }, sec); 
         // 1sec = 1000
         // 1min = 60000
         // 3 minutes = 180000
@@ -126,10 +138,25 @@ $('.post-btn').click(function() {
     }
     return parms;
 }
+function updateWaitingText(mins,secs){
+  var str_timer = "";
 
-  function loadingFunction(){ 
+  if(mins > 0)
+    str_timer += mins+ " minutes"
+  if(secs > 0)
+    str_timer += secs+ " seconds"
+   
+
+  $('.txt-notes .timer').text(str_timer);
+
+    // 
+}
+
+  function loadingFunction(sec){ 
 //  Sending view from Youtube "Uploading data from Google Firebase ""DONE ! Please wait your view to be update by Team " 
  
+   
+
     var customElement =  '<div class="cm-spinner"></div>'
     
     $.LoadingOverlay("show", {
@@ -164,7 +191,7 @@ $('.post-btn').click(function() {
         //     direction: "column"
         // });
 
-    }, 1000); 
+    }, sec/2); 
         // 1sec = 1000
         // 1min = 60000
         // 3min = 180000
