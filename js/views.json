@@ -3,7 +3,7 @@
     {
     "tittle" : "NAME | DATE ",
     "subTittle" : "Facebook",
-    "image" : "Net25.jpg",
+    "image" : "INC-Central-Temple-2.jpg",
     "link" : "https://www.youtube.com/",
     "allowEdit": false,
     "redirectPage": true,
@@ -29,7 +29,7 @@
       "link" : "https://www.bold.com/",
       "allowEdit": false,
       "redirectPage": true,
-      "page" : "watch",
+      "page" : "watch2",
       "viewData" : [
       {"lokal":"Aguilar",           "views":  0},
       {"lokal":"Alitaya",           "views":  0},
