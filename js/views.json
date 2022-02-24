@@ -1,0 +1,52 @@
+{
+  "jsonData" : [
+    {
+    "tittle" : "NAME | DATE ",
+    "subTittle" : "Facebook",
+    "image" : "Net25.jpg",
+    "link" : "https://www.youtube.com/",
+    "allowEdit": false,
+    "redirectPage": true,
+    "page" : "watch",
+    "viewData" : [
+      {"lokal":"Aguilar",           "views":  0},
+      {"lokal":"Alitaya",           "views":  0},
+      {"lokal":"Angio",             "views":  0},
+      {"lokal":"Away",              "views":  0},
+      {"lokal":"Baay Ext",          "views":  0},
+      {"lokal":"Bacabac",           "views":  0},
+      {"lokal":"Balococ",           "views":  0},
+      {"lokal":"Baloling",          "views":  0},
+      {"lokal":"Banaybayan Ext",    "views":  0},
+      {"lokal":"Bateng",            "views":  0}
+     
+      ] 
+    },
+    {
+      "tittle" : "NAME | DATE 2 ",
+      "subTittle" : "Youtube",
+      "image" : "Untitled.jpg",
+      "link" : "https://www.bold.com/",
+      "allowEdit": false,
+      "redirectPage": true,
+      "page" : "watch",
+      "viewData" : [
+      {"lokal":"Aguilar",           "views":  0},
+      {"lokal":"Alitaya",           "views":  0},
+      {"lokal":"Angio",             "views":  0},
+      {"lokal":"Away",              "views":  0},
+      {"lokal":"Baay Ext",          "views":  0},
+      {"lokal":"Bacabac",           "views":  0},
+      {"lokal":"Balococ",           "views":  0},
+      {"lokal":"Baloling",          "views":  0},
+      {"lokal":"Banaybayan Ext",    "views":  0},
+      {"lokal":"Bateng",            "views":  0}
+        ] 
+      }
+      
+
+  ]
+}
+
+
+
