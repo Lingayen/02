@@ -58,6 +58,14 @@ $(document).ready(function() {
     // var link ='https://youtu.be/My-lxET30Ro';
     // $('.main-event').append('<a  id="hidden-link" class="hidden-link" href="'+link+'" target="_blank"></a>'); 
      
+$('.btn-report').click(function() {
+
+  // href="https://lingayen.github.io/report/"
+  window.open(
+    'https://lingayen.github.io/report',
+    '_blank' // <- This is what makes it open in a new window.
+  );
+})
 $('.post-btn').click(function() {
 
    loadingFunction();
