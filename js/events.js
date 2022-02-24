@@ -142,7 +142,7 @@ function updateWaitingText(mins,secs){
   var str_timer = "";
 
   if(mins > 0)
-    str_timer += mins+ " minutes"
+    str_timer += mins+ " minutes "
   if(secs > 0)
     str_timer += secs+ " seconds"
    
