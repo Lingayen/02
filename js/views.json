@@ -16,12 +16,8 @@
       {"lokal":"Camanava",                "duration":"29:0",  "link":"https://www.facebook.com/events/327304979448923/", "image":"12.jpg",        "views":  0},
       {"lokal":"Central",                 "duration":"29:0",  "link":"https://www.facebook.com/events/327304979448923/", "image":"12.jpg",        "views":  0},
       {"lokal":"Southeast California",    "duration":"29:0",  "link":"https://www.facebook.com/events/327304979448923/", "image":"12.jpg",        "views":  0},
-      {"lokal":"Negros Del Norte",    "duration":"29:0",  "link":"https://www.facebook.com/events/327304979448923/", "image":"12.jpg",        "views":  0},
-      {"lokal":"Bacabac",                 "duration":"00:05",  "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0},
-      {"lokal":"Balococ",                 "duration":"00:05",  "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0},
-      {"lokal":"Baloling",                "duration":"00:05",  "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0},
-      {"lokal":"Banaybayan Ext",          "duration":"00:05",  "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0},
-      {"lokal":"Bateng",                  "duration":"00:05",  "link":"https://www.youtube.com/", "image":"Untitled.jpg",                   "views":  0}
+      {"lokal":"Negros Del Norte",    "duration":"29:0",  "link":"https://www.facebook.com/events/327304979448923/", "image":"12.jpg",        "views":  0}
+       
      
       ] 
     },
@@ -41,12 +37,7 @@
         {"lokal":"Camanava",                 "duration":"29:0",  "link":"https://www.youtube.com/watch?v=ouiOEMPm_-A", "image":"12.jpg",                  "views":  0},
         {"lokal":"Central",                  "duration":"29:0",  "link":"https://www.youtube.com/watch?v=ouiOEMPm_-A", "image":"12.jpg",                  "views":  0},
         {"lokal":"Southeast California",     "duration":"29:0",  "link":"https://www.youtube.com/watch?v=ouiOEMPm_-A", "image":"12.jpg",                  "views":  0},
-        {"lokal":"Negros Del Norte",    "duration":"29:0",  "link":"https://www.youtube.com/watch?v=ouiOEMPm_-A/", "image":"12.jpg",        "views":  0},
-        {"lokal":"Bacabac",                   "duration":"00:05",  "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0},
-        {"lokal":"Balococ",                   "duration":"00:05",  "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0},
-        {"lokal":"Baloling",                  "duration":"00:05",  "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0},
-        {"lokal":"Banaybayan Ext",            "duration":"00:05",  "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0},
-        {"lokal":"Bateng",                    "duration":"00:05",  "link":"https://www.youtube.com/", "image":"Untitled.jpg",                  "views":  0}
+        {"lokal":"Negros Del Norte",    "duration":"29:0",  "link":"https://www.youtube.com/watch?v=ouiOEMPm_-A/", "image":"12.jpg",        "views":  0}
         ] 
       }
       
