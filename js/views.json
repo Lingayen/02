@@ -12,7 +12,7 @@
     "different_link_per_data" : true,
     "different_img_per_data" : true,
     "viewData" : [
-      {"lokal":"Australia East",          "duration":"29:0",  "link":"https://www.facebook.com/events/327304979448923/", "image":"12.jpg",        "views":  0},
+      {"lokal":"Australia East",          "duration":"29:0",  "link":"https://www.facebook.com/events/327304979448923/", "image":"12.jpg",        "views":  3},
       {"lokal":"Camanava",                "duration":"29:0",  "link":"https://www.facebook.com/events/327304979448923/", "image":"12.jpg",        "views":  0},
       {"lokal":"Central",                 "duration":"29:0",  "link":"https://www.facebook.com/events/327304979448923/", "image":"12.jpg",        "views":  0},
       {"lokal":"Southeast California",    "duration":"29:0",  "link":"https://www.facebook.com/events/327304979448923/", "image":"12.jpg",        "views":  0},
